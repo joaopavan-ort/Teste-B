@@ -4,11 +4,12 @@
 -  A soma de metade da variável X com a variável Z.
 -  A variável Y elevada ao quadrado.
 '''
-
+# Requisitando valores para as variáveis
 X = int(input('Escolha um número inteiro para a variável X: '))
 Y = int(input('Escolha um número inteiro para a variável Y: '))
 Z = float(input('Escolha um número inteiro para a variável Z: '))
 
+# Saída com os resultados das operações requisitadas
 print('O produto do triplo da variável X com o dobro da variável Y:', (3 * X) * (2 * Y))
 print('A soma de metade da variável X com a variável Z:', (X / 2) + Z)
 print('A variável Y elevada ao quadrado:', Y**2)

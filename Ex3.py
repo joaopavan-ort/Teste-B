@@ -4,7 +4,8 @@
 -  Calcule o valor total da taxa de excesso.
 -  Requisito de Saída: Exiba o resultado utilizando Strings Formatadas. O valor da taxa deve aparecer com o símbolo da moeda (R$) e obrigatoriamente com duas casas decimais.
 '''
-
+# Requisitando variável 'ex', de excesso para o peso excedente da encomenda
 ex = float(input('Quantos quilos em excesso teve a encomenda? '))
 
+# Saída com o preço da taxa considerando o valor 'ex' como peso excedente
 print('A taxa para esse pacote é de R${:0.2f}'.format(ex*7.5))
